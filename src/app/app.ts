@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { LargeCard } from '../components/large-card/large-card';
+import { DefaultCard } from '../components/default-card/default-card';
+import { LucideSearch } from '@lucide/angular';
 
 @Component({
   selector: 'app-root',
-  imports: [LargeCard],
+  imports: [LucideSearch, LargeCard, DefaultCard],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
