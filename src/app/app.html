@@ -38,9 +38,11 @@
     </div>
   </div>
 
-  <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+  <div
+    class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 lg:grid lg:grid-cols-3 lg:overflow-visible"
+  >
+    <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
+    <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
+    <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
   </div>
 </section>
