@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
+import { LucideDownload } from '@lucide/angular';
 
 @Component({
-  imports: [],
+  imports: [LucideDownload],
   selector: 'app-small-card',
   styleUrl: './small-card.css',
   templateUrl: './small-card.html',
