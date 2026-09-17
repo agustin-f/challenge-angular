@@ -1,49 +1,51 @@
-<section class="bg-gray-100 p-4 md:p-8 lg:px-20 lg:py-30">
-  <app-large-card></app-large-card>
-</section>
+<main>
+  <section class="bg-gray-100 p-4 md:p-8 lg:px-20 lg:py-30">
+    <app-large-card></app-large-card>
+  </section>
 
-<section class="p-4 md:p-8 lg:px-20 lg:py-30">
-  <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
-    <div class="mb-6">
-      <h1 class="text-5xl font-bold mb-4">Lorem ipsum dolor sit</h1>
-      <p>Lorem ipsum dolor sit</p>
+  <section class="p-4 md:p-8 lg:px-20 lg:py-30">
+    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
+      <div class="mb-6">
+        <h1 class="text-5xl font-bold mb-4">Lorem ipsum dolor sit</h1>
+        <p>Lorem ipsum dolor sit</p>
+      </div>
+
+      <div class="relative mt-4 lg:mt-0">
+        <input
+          type="search"
+          placeholder="Buscar"
+          class="w-full lg:w-80 h-10 border border-gray-300 pl-10 rounded-lg bg-gray-100"
+          pr-4
+        />
+        <svg lucideSearch class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4"></svg>
+      </div>
     </div>
 
-    <div class="relative mt-4 lg:mt-0">
-      <input
-        type="search"
-        placeholder="Buscar"
-        class="w-full lg:w-80 h-10 border border-gray-300 pl-10 rounded-lg bg-gray-100"
-        pr-4
-      />
-      <svg lucideSearch class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4"></svg>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <app-default-card></app-default-card>
+      <app-default-card></app-default-card>
+      <app-default-card></app-default-card>
+      <app-default-card></app-default-card>
+      <app-default-card></app-default-card>
+      <app-default-card></app-default-card>
     </div>
-  </div>
+  </section>
 
-  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <app-default-card></app-default-card>
-    <app-default-card></app-default-card>
-    <app-default-card></app-default-card>
-    <app-default-card></app-default-card>
-    <app-default-card></app-default-card>
-    <app-default-card></app-default-card>
-  </div>
-</section>
-
-<section class="p-4 md:p-8 lg:px-20 lg:py-30">
-  <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
-    <div class="mb-6">
-      <h1 class="text-5xl font-bold mb-4">Lorem ipsum dolor sit</h1>
-      <p>Lorem ipsum dolor sit</p>
+  <section class="p-4 md:p-8 lg:px-20 lg:py-30">
+    <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6">
+      <div class="mb-6">
+        <h1 class="text-5xl font-bold mb-4">Lorem ipsum dolor sit</h1>
+        <p>Lorem ipsum dolor sit</p>
+      </div>
     </div>
-  </div>
 
-  <div
-    class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 lg:grid lg:grid-cols-4 lg:overflow-visible"
-  >
-    <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
-    <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
-    <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
-    <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
-  </div>
-</section>
+    <div
+      class="flex gap-6 overflow-x-auto snap-x snap-mandatory pb-4 lg:grid lg:grid-cols-4 lg:overflow-visible"
+    >
+      <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
+      <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
+      <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
+      <app-small-card class="min-w-[85%] md:min-w-[45%] lg:min-w-0 snap-start"></app-small-card>
+    </div>
+  </section>
+</main>
